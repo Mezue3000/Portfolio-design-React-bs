@@ -1,14 +1,16 @@
 import React from "react"
+import Header from "./Components/Header"
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>pylot's design</h1>
-      </div>
+      <header id="header">
+        <Header />
+      </header>
     </>
   )
 }
 
 export default App
+
