@@ -1,4 +1,5 @@
-import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/Js/bootstrap.bundle.min.Js';
 import Header from "./Components/Header"
 
 function App() {
