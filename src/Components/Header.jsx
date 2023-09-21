@@ -3,7 +3,7 @@ import { BsFillPieChartFill } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-info py-3">
+    <Navbar expand="lg" className="bg-warning py-3 fixed-top">
         <Container>
             <div>
               <BsFillPieChartFill className='pb-1 iconz'/>

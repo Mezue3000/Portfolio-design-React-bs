@@ -6,12 +6,52 @@
 }
 
 
+body {
+  height: 2000px;
+}
+
 
 .heady {
   padding-left: 225px;
 }
 
 
+
 .iconz {
   font-size: 21px;
+}
+
+
+
+.imagey {
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+
+
+.index {
+  z-index: 100;
+  margin-top:10px;
+}
+
+
+
+.heading1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 195px;
+} 
+
+
+
+.para1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 100px;
 }
