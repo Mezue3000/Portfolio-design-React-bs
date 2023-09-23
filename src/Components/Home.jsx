@@ -1,13 +1,12 @@
 import Carousel from 'react-bootstrap/Carousel'
+import ProgressBar from 'react-bootstrap/ProgressBar';
 import image1 from '../assets/Medias/img1.jpg'
 import image2 from '../assets/Medias/img2.webp'
 import image3 from '../assets/Medias/img3.jpg'
 
-
-
 const Home = () => {
   return (
-    <section id='home' className='mt-'>
+    <section id='home' className='homy'>
       <Carousel data-bs-theme="dark">
           <Carousel.Item>
             <img
@@ -49,8 +48,14 @@ const Home = () => {
 
           </Carousel.Item>
         </Carousel>
+
+        <div>
+          <h3 className='fs-2 ms-5 fw-bold text-info mt-1'>Cloud Computing</h3>
+          <ProgressBar className='w-75 ms-5' animated now={55} />;
+          <h3 className='fs-2 ms-5 fw-bold text-white'>React-Redux</h3>
+          <ProgressBar className='w-75 ms-5 mb-2' animated now={75} />
+        </div>
     </section>
   )
 }
-
 export default Home

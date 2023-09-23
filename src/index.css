@@ -7,12 +7,20 @@
 
 
 body {
-  height: 2000px;
+  height: 3000px;
+  background: black;
+}
+
+
+
+.homy {
+  height: 800px;
+  padding-bottom:20px;
 }
 
 
 .heady {
-  padding-left: 225px;
+  padding-left: 300px;
 }
 
 
@@ -24,8 +32,7 @@ body {
 
 
 .imagey {
-  height: 500px;
-  border-radius: 20px;
+  height: 530px;
   margin-top: 50px;
 }
 
@@ -54,4 +61,51 @@ body {
   font-weight: bold;
   color: white;
   margin-bottom: 100px;
+}
+
+
+.about {
+  text-align: center;
+  color: white;
+}
+
+
+
+.about2 {
+  text-align: center;
+  color: gray;
+}
+
+
+
+.pylot {
+  margin-top: 10px;
+  margin-left: 45px;
+  height: 305px;
+  
+}
+
+
+
+.abt-section {
+  height:720px;
+  background-color: green;
+}
+
+
+
+.accordion {
+  width: 400px;
+  position: relative;
+  top: 25px;
+  right: 30px;
+}
+
+
+
+.listgroup {
+  width: 400px;
+  position: relative;
+  top: 35px;
+  right: 30px;
 }

@@ -14,7 +14,6 @@ const Header = () => {
                 <Nav className="heady fw-bolder fs-5">
                     <Nav.Link href="#home" data-tooltip-id='my-tooltip' data-tooltip-content="home">Home</Nav.Link>
                     <Nav.Link href="#about" data-tooltip-id='my-tooltip' data-tooltip-content='about'>About</Nav.Link>
-                    <Nav.Link href="#service" data-tooltip-id='my-tooltip' data-tooltip-content='service'>Services</Nav.Link>
                     <Nav.Link href="#work" data-tooltip-id='my-tooltip' data-tooltip-content='work'>Works</Nav.Link>
                     <Nav.Link href="#pricing" data-tooltip-id='my-tooltip' data-tooltip-content='pricing'>Pricing</Nav.Link>
                     <Nav.Link href="#blog" data-tooltip-id='my-tooltip' data-tooltip-content='blog'>Blog</Nav.Link>
