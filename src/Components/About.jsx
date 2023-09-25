@@ -6,12 +6,12 @@ const About = () => {
     <section id='about' className='abt-section'>
         <Container>
             <div>
-              <h1 className='fw-bold fs-1 pt-2 about'>About-Us</h1>
+              <h1 className='fw-bold fs-1 pt-3 about'>About-Us</h1>
               <p className='fs-5 about2'>Lorem ipsum dolor, sit amet elit.</p>
             </div>
             <Row>
-              <Col sm={6}><img className='pylot rounded-circle' src={pylot} alt="portrait" /></Col>
-              <Col sm={6}>  
+              <Col><img className='pylot rounded-circle' src={pylot} alt="portrait" /></Col>
+              <Col>  
                   <Accordion className='accordion'>
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>Explore my Skills </Accordion.Header>

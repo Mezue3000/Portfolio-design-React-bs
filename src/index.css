@@ -7,7 +7,7 @@
 
 
 body {
-  height: 3000px;
+  height: 4000px;
   background: black;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .about2 {
   text-align: center;
-  color: gray;
+  color: rgba(255, 255, 255, 0.644);
 }
 
 
@@ -108,4 +108,18 @@ body {
   position: relative;
   top: 35px;
   right: 30px;
+}
+
+
+
+.work-image {
+  border-radius:50px;
+   height:100%;
+   width: 100%;
+}
+
+
+
+.work-section {
+  height: 850px;
 }
