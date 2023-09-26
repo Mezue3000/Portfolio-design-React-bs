@@ -18,7 +18,7 @@ const Work = () => {
           <h1 className='about pt-5 fw-bold'>Our Work</h1>
           <p className='about2'>Lorem ipsum dolor sit amet.</p>
         </div>
-        <Row sm={2} md={3} xs={2} className='g-4'>
+        <Row sm={3} md={3} xs={3} className='g-4'>
           <Col><img className='work-image'src={work2} alt="images" /></Col>
           <Col><img className='work-image'src={swim} alt="images" /></Col>
           <Col><img className='work-image'src={work4} alt="images" /></Col>
@@ -28,20 +28,7 @@ const Work = () => {
           <Col><img className='work-image'src={workX} alt="images" /></Col>
           <Col><img className='work-image'src={work3} alt="images" /></Col>
           <Col><img className='work-image'src={Sports} alt="images" /></Col>
-        </Row>
-        
-        {/* <Row className='gy-3'>
-          <Col><img className='work-image'src={work2} alt="images" /></Col>
-          <Col><img className='work-image'src={work2} alt="images" /></Col>
-          <Col><img className='work-image'src={work2} alt="images" /></Col>
-        </Row>
-        
-        <Row className='gy-3'>
-          <Col><img className='work-image'src={work2} alt="images" /></Col>
-          <Col><img className='work-image'src={work2} alt="images" /></Col>
-          <Col><img className='work-image'src={work2} alt="images" /></Col>
-        </Row> */}
-        
+        </Row>        
       </Container>
 
     </section>
