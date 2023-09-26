@@ -5,7 +5,7 @@ const Pricing = () => {
     <section id='pricing' className='pricing'>
         <Container>
             <div>
-                <h1 className='about fw-bold pt-5'>Pricing</h1>
+                <h1 className='about fw-bold pt-5'>Pricing $ Plans</h1>
                 <p className='about2'>Lorem ipsum dolor sit amet.</p>
             </div>
             <Row className='pt-3'>
@@ -13,7 +13,7 @@ const Pricing = () => {
                     <div className='bg-dark text-light'>
                         <h3 className='text-center pt-2'>pricing</h3>
                         <p className='text-center'>$240</p>
-                        <ListGroup className='text-center'>
+                        <ListGroup className='text-center fw-bold'>
                             <ListGroup.Item disabled>Cras justo odio</ListGroup.Item>
                             <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
                             <ListGroup.Item>Morbi leo risus</ListGroup.Item>
@@ -24,7 +24,7 @@ const Pricing = () => {
                 </Col>
                 <Col>
                     <div className='bg-danger'>
-                        <h3 className='text-center pt-2'>pricing</h3>
+                        <h3 className='text-center pt-2 fw-bold'>pricing</h3>
                         <p className='text-center'>$240</p>
                         <ListGroup className='text-center'>
                             <ListGroup.Item disabled>Cras justo odio</ListGroup.Item>
@@ -36,7 +36,7 @@ const Pricing = () => {
                     </div>               
                 </Col>
                 <Col>
-                    <div className='bg-dark text-white'>
+                    <div className='bg-dark text-white fw-bold'>
                         <h3 className='text-center pt-2'>pricing</h3>
                         <p className='text-center'>$240</p>
                         <ListGroup className='text-center'>

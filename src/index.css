@@ -7,7 +7,7 @@
 
 
 body {
-  height: 4000px;
+  height: 5000px;
   background: black;
 }
 
@@ -120,6 +120,7 @@ body {
 
 
 
+
 .work-section {
   height: 950px;
 }
@@ -128,4 +129,11 @@ body {
 .pricing {
   height: 600px;
   background-color: green;
+}
+
+
+
+
+.blog-section {
+  height: 700px;
 }

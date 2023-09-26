@@ -6,6 +6,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Work from './Components/Work';
 import Pricing from './Components/Pricing';
+import Blog from './Components/Blog';
+import Contact from './Components/Contact';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <About />
         <Work />
         <Pricing />
+        <Blog />
+        <Contact />
       </main>
     </>
   )
