@@ -8,45 +8,47 @@ const Pricing = () => {
                 <h1 className='about fw-bold pt-5'>Pricing $ Plans</h1>
                 <p className='about2'>Lorem ipsum dolor sit amet.</p>
             </div>
-            <Row className='pt-3'>
+            <Row xs={3} sm={3} md={3} className='pt-3'>
                 <Col>
-                    <div className='bg-dark text-light'>
+                    <div className='bg-info text-light rounded-pill'>
                         <h3 className='text-center pt-2'>pricing</h3>
-                        <p className='text-center'>$240</p>
+                        <p className='text-center'>$375</p>
                         <ListGroup className='text-center fw-bold'>
-                            <ListGroup.Item disabled>Cras justo odio</ListGroup.Item>
+                            <ListGroup.Item>Cras justo odio</ListGroup.Item>
                             <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
                             <ListGroup.Item>Morbi leo risus</ListGroup.Item>
                             <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
                             <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                        </ListGroup>
-                    </div>               
+                        </ListGroup>             
+                    </div>    
                 </Col>
+
                 <Col>
-                    <div className='bg-danger'>
-                        <h3 className='text-center pt-2 fw-bold'>pricing</h3>
-                        <p className='text-center'>$240</p>
-                        <ListGroup className='text-center'>
-                            <ListGroup.Item disabled>Cras justo odio</ListGroup.Item>
-                            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                            <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-                            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                        </ListGroup>
-                    </div>               
-                </Col>
-                <Col>
-                    <div className='bg-dark text-white fw-bold'>
+                    <div className='bg-dark text-light rounded-pill'>
                         <h3 className='text-center pt-2'>pricing</h3>
-                        <p className='text-center'>$240</p>
-                        <ListGroup className='text-center'>
-                            <ListGroup.Item disabled>Cras justo odio</ListGroup.Item>
+                        <p className='text-center'>$540</p>
+                        <ListGroup className='text-center fw-bold'>
+                            <ListGroup.Item>Cras justo odio</ListGroup.Item>
                             <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
                             <ListGroup.Item>Morbi leo risus</ListGroup.Item>
                             <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
                             <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                        </ListGroup>
-                    </div>               
+                        </ListGroup>             
+                    </div> 
+                </Col>
+
+                <Col>
+                    <div className='bg-danger text-light rounded-pill'>
+                        <h3 className='text-center pt-2'>pricing</h3>
+                        <p className='text-center'>$200</p>
+                        <ListGroup className='text-center fw-bold'>
+                            <ListGroup.Item>Cras justo odio</ListGroup.Item>
+                            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+                            <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+                            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+                            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+                        </ListGroup>             
+                    </div>                    
                 </Col>
             </Row>
         </Container>

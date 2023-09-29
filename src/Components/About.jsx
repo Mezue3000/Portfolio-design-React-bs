@@ -4,17 +4,17 @@ import pylot from '../assets/Medias/pylot.jpg'
 const About = () => {
   return (
     <section id='about' className='abt-section'>
-        <Container>
+        <Container-fluid>
             <div>
               <h1 className='fw-bold fs-1 pt-3 about'>About-Us</h1>
               <p className='fs-5 about2'>Lorem ipsum dolor, sit amet elit.</p>
             </div>
             <Row>
-              <Col><img className='pylot rounded-circle' src={pylot} alt="portrait" /></Col>
+              <Col><img className='rounded-circle w-50 ms-5' title='Senior Developer' src={pylot} alt="portrait" /></Col>
               <Col>  
-                  <Accordion className='accordion'>
+                  <Accordion className='me-5 mt-5'>
                     <Accordion.Item eventKey="0">
-                      <Accordion.Header>Explore my Skills </Accordion.Header>
+                      <Accordion.Header>Read Pylot's Doc... </Accordion.Header>
                       <Accordion.Body>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -26,7 +26,7 @@ const About = () => {
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
-                      <Accordion.Header>Read pylot's doc.. </Accordion.Header>
+                      <Accordion.Header>Explore My Skills</Accordion.Header>
                       <Accordion.Body>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -39,7 +39,7 @@ const About = () => {
                     </Accordion.Item>
                   </Accordion>
 
-                  <ListGroup className='listgroup'>
+                  <ListGroup className='me-5 mt-3'>
                     <ListGroup.Item className='bg-dark text-light'>Name</ListGroup.Item>
                     <ListGroup.Item>Mezue Obiora</ListGroup.Item>
                     <ListGroup.Item className='bg-dark text-light'>E-mail</ListGroup.Item>
@@ -47,11 +47,9 @@ const About = () => {
                   </ListGroup>
               </Col>
             </Row>
-        </Container>
+        </Container-fluid>
 
-       
     </section>
   )
 }
-
 export default About

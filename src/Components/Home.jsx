@@ -1,8 +1,7 @@
-import Carousel from 'react-bootstrap/Carousel'
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import image1 from '../assets/Medias/img1.jpg'
-import image2 from '../assets/Medias/img2.webp'
-import image3 from '../assets/Medias/img3.jpg'
+import { Carousel, ProgressBar } from 'react-bootstrap';
+import image1 from '../assets/Medias/img1.jpg';
+import image2 from '../assets/Medias/img2.webp';
+import image3 from '../assets/Medias/success.jpg';
 
 const Home = () => {
   return (
@@ -16,8 +15,7 @@ const Home = () => {
             />
               
             <Carousel.Caption>
-              <h5 className='heading1'>Mezue Obiora Full-stack Diary</h5>
-              <p className='para1'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p className='para1 text-white fw-bolder'>Mezue Obiora Is A Fullstack Software Developer.</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -28,8 +26,7 @@ const Home = () => {
               alt="Second slide"
             />
             <Carousel.Caption>
-              <h5 className='heading1'>Mezue Obiora Full-stack Diary</h5>
-              <p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className='para1 text-primary fw-bolder'>Mezue Obiora Is A Fullstack Software Developer.</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -40,9 +37,8 @@ const Home = () => {
               alt="Third slide"
             />
             <Carousel.Caption>
-              <h5 className='heading1'>Mezue Obiora Full-stack Diary</h5>
-              <p className='para1'>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              <p className='para1 text-dark fw-bolder'>
+                Mezue Obiora Is A Fullstack Software Developer.
               </p>
             </Carousel.Caption>
 

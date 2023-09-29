@@ -7,7 +7,7 @@
 
 
 body {
-  height: 5000px;
+  height: 6000px;
   background: black;
 }
 
@@ -16,11 +16,6 @@ body {
 .homy {
   height: 800px;
   padding-bottom:20px;
-}
-
-
-.heady {
-  padding-left: 300px;
 }
 
 
@@ -57,10 +52,8 @@ body {
 
 
 .para1 {
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 100px;
+  font-size: 35px;
+  margin-bottom: 200px;
 }
 
 
@@ -77,37 +70,9 @@ body {
 }
 
 
-
-.pylot {
-  margin-top: 10px;
-  margin-left: 45px;
-  height: 305px;
-  
-}
-
-
-
 .abt-section {
   height:720px;
   background-color: green;
-}
-
-
-
-.accordion {
-  width: 400px;
-  position: relative;
-  top: 25px;
-  right: 30px;
-}
-
-
-
-.listgroup {
-  width: 400px;
-  position: relative;
-  top: 35px;
-  right: 30px;
 }
 
 
@@ -119,21 +84,36 @@ body {
 }
 
 
-
-
 .work-section {
   height: 950px;
 }
 
 
+
 .pricing {
-  height: 600px;
+  height: 800px;
   background-color: green;
 }
-
 
 
 
 .blog-section {
   height: 700px;
 }
+
+
+
+
+.testimonial {
+  height: 500px;
+  background-color: green;
+}
+
+
+
+.contact-section {
+  height: 600px;
+  background-color: white;
+}
+
+
