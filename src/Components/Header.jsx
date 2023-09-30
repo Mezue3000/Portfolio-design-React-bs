@@ -7,8 +7,8 @@ const Header = () => {
         <Navbar expand="lg" className="bg-warning py-3 fixed-top heady">
             <Container>
                 <div>
-                <BsFillPieChartFill className='pb-1 iconz'/>
-                <Navbar.Brand href="#home" className='fw-bolder fs-5'>Pylot's Folio</Navbar.Brand>
+                  <BsFillPieChartFill className='pb-1 iconz'/>
+                  <Navbar.Brand href="#home" className='fw-bolder fs-5'>Pylot's Folio</Navbar.Brand>
                 </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

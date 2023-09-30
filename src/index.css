@@ -7,7 +7,7 @@
 
 
 body {
-  height: 5700px;
+  height: 5600px;
   background: black;
 }
 
@@ -37,7 +37,6 @@ body {
   z-index: 100;
   margin-top:10px;
 }
-
 
 
 .heading1 {
@@ -111,10 +110,44 @@ body {
 
 
 .contact-section {
-  height: 800px;
+  height: 1020px;
 }
 
 
-.hait {
+.control {
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+}
+
+
+
+.map {
   height: 400px;
+  background-color:green;
+}
+
+
+
+#footer {
+  height: 150px;
+  background-color:rgb(244, 187, 1);
+  text-align: center;
+}
+
+
+
+.iconf {
+  font-size:30px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+
+
+.copy {
+  margin-top: 30px;
 }
