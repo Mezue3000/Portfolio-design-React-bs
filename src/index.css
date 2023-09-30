@@ -7,7 +7,7 @@
 
 
 body {
-  height: 6000px;
+  height: 5700px;
   background: black;
 }
 
@@ -103,7 +103,6 @@ body {
 
 
 
-
 .testimonial {
   height: 500px;
   background-color: green;
@@ -112,8 +111,10 @@ body {
 
 
 .contact-section {
-  height: 600px;
-  background-color: white;
+  height: 800px;
 }
 
 
+.hait {
+  height: 400px;
+}
