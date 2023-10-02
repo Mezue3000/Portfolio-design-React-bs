@@ -12,7 +12,6 @@ body {
 }
 
 
-
 .homy {
   height: 800px;
   padding-bottom:20px;
@@ -23,7 +22,6 @@ body {
 .iconz {
   font-size: 21px;
 }
-
 
 
 .imagey {
@@ -142,10 +140,9 @@ body {
   padding-top: 25px;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 220px;
-  margin-right: 220px;
+  width: 50%;
+  margin-left: 25%;
 }
-
 
 
 .copy {

@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import { BsFacebook, BsFillCartPlusFill, BsFillCursorFill, BsChatDotsFill, BsGoogle  } from "react-icons/bs";
 
-
 const Footer = () => {
   return (
     <footer>
