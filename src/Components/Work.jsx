@@ -12,13 +12,13 @@ import Sports from '../assets/Medias/Sports.jpg';
 
 const Work = () => {
   return (
-    <section id='work' className='work-section'>
+    <section id='work' className='work-section pb-5'>
       <Container>
         <div>
           <h1 className='about pt-5 fw-bold'>Our Work</h1>
           <p className='about2'>Lorem ipsum dolor sit amet.</p>
         </div>
-        <Row xs={3} sm={3} md={3} className='g-3 pt-3'>
+        <Row xs={1} sm={2} md={3} className='g-3 pt-3'>
           <Col><img className='work-image'src={work2} alt="images" /></Col>
           <Col><img className='work-image'src={swim}  alt="images" /></Col>
           <Col><img className='work-image'src={work4} alt="images" /></Col>

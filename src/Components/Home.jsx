@@ -5,7 +5,7 @@ import image3 from '../assets/Medias/success.jpg';
 
 const Home = () => {
   return (
-    <section id='home' className='homy'>
+    <section id='home' className='homy pb-5'>
       <Carousel data-bs-theme="dark">
           <Carousel.Item>
             <img

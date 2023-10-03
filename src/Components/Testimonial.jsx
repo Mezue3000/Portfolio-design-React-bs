@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 
 const Testimonial = () => {
   return (
-    <section id='testimonial' className='testimonial'>
+    <section id='testimonial' className='testimonial pb-5'>
       <Container>
           <div className='fw-bold'>
                 <h1 className='about pt-3 fw-bold'>Our Testimonial</h1>

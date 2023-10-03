@@ -7,16 +7,13 @@
 
 
 body {
-  height: 5600px;
   background: black;
 }
 
 
 .homy {
-  height: 800px;
   padding-bottom:20px;
 }
-
 
 
 .iconz {
@@ -28,7 +25,6 @@ body {
   height: 530px;
   margin-top: 50px;
 }
-
 
 
 .index {
@@ -50,7 +46,6 @@ body {
 
 .para1 {
   font-size: 35px;
-  margin-bottom: 200px;
 }
 
 
@@ -68,8 +63,7 @@ body {
 
 
 .abt-section {
-  height:720px;
-  background-color: green;
+  background-color: green;  
 }
 
 
@@ -81,35 +75,17 @@ body {
 }
 
 
-.work-section {
-  height: 950px;
-}
-
-
 
 .pricing {
-  height: 800px;
   background-color: green;
-}
-
-
-
-.blog-section {
-  height: 700px;
 }
 
 
 
 .testimonial {
-  height: 500px;
   background-color: green;
 }
 
-
-
-.contact-section {
-  height: 1020px;
-}
 
 
 .control {
@@ -128,7 +104,6 @@ body {
 
 
 #footer {
-  height: 150px;
   background-color:rgb(244, 187, 1);
   text-align: center;
 }

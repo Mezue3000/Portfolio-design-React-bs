@@ -5,13 +5,13 @@ import workA from '../assets/Medias/workA.jpg'
 
 const Blog = () => {
   return (
-    <section id='blog' className='blog-section'>
+    <section id='blog' className='blog-section pb-5'>
         <Container>
             <div>
                 <h1 className='about pt-5 fw-bold'>Latest From Blog</h1>
                 <p className='about2'>Lorem ipsum dolor sit amet.</p>
             </div>
-            <Row sm={3} xs={3} md={3} className='pt-3' >
+            <Row xs={1} sm={2} md={3} className='pt-3' >
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={workF} />

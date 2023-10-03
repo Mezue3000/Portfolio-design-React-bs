@@ -2,13 +2,13 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 
 const Pricing = () => {
   return (
-    <section id='pricing' className='pricing'>
+    <section id='pricing' className='pricing pb-5'>
         <Container>
             <div>
                 <h1 className='about fw-bold pt-5'>Pricing $ Plans</h1>
                 <p className='about2'>Lorem ipsum dolor sit amet.</p>
             </div>
-            <Row xs={3} sm={3} md={3} className='pt-3'>
+            <Row xs={1} sm={2} md={3} className='pt-3'>
                 <Col>
                     <div className='bg-info text-light rounded-pill'>
                         <h3 className='text-center pt-2'>pricing</h3>

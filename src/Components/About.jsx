@@ -3,8 +3,8 @@ import pylot from '../assets/Medias/pylot.jpg'
 
 const About = () => {
   return (
-    <section id='about' className='abt-section'>
-        <Container-fluid>
+    <section id='about' className='abt-section pb-5'>
+        <Container>
             <div>
               <h1 className='fw-bold fs-1 pt-3 about'>About-Us</h1>
               <p className='fs-5 about2'>Lorem ipsum dolor, sit amet elit.</p>
@@ -12,7 +12,7 @@ const About = () => {
             <Row>
               <Col><img className='rounded-circle w-50 ms-5' title='Senior Developer' src={pylot} alt="portrait" /></Col>
               <Col>  
-                  <Accordion className='me-5 mt-5'>
+                  <Accordion className=''>
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>Read Pylot's Doc... </Accordion.Header>
                       <Accordion.Body>
@@ -39,7 +39,7 @@ const About = () => {
                     </Accordion.Item>
                   </Accordion>
 
-                  <ListGroup className='me-5 mt-3'>
+                  <ListGroup className='mt-2'>
                     <ListGroup.Item className='bg-dark text-light'>Name</ListGroup.Item>
                     <ListGroup.Item>Mezue Obiora</ListGroup.Item>
                     <ListGroup.Item className='bg-dark text-light'>E-mail</ListGroup.Item>
@@ -47,7 +47,7 @@ const About = () => {
                   </ListGroup>
               </Col>
             </Row>
-        </Container-fluid>
+        </Container>
 
     </section>
   )
