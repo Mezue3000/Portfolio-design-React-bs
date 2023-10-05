@@ -15,7 +15,7 @@ const Home = () => {
             />
               
             <Carousel.Caption>
-              <p className='para1 text-white fw-bolder'>Mezue Obiora Is A Fullstack Software Developer.</p>
+              <p className='para1 text-white fw-bolder animate__animated animate__backInDown'>Mezue Obiora Is A Fullstack Software Developer.</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -26,7 +26,7 @@ const Home = () => {
               alt="Second slide"
             />
             <Carousel.Caption>
-              <p className='para1 text-primary fw-bolder'>Mezue Obiora Is A Fullstack Software Developer.</p>
+              <p className='para1 text-primary fw-bolder animate__animated animate__backInDown'>Mezue Obiora Is A Fullstack Software Developer.</p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -37,7 +37,7 @@ const Home = () => {
               alt="Third slide"
             />
             <Carousel.Caption>
-              <p className='para1 text-dark fw-bolder'>
+              <p className='para1 text-dark fw-bolder animate__animated animate__backInDown'>
                 Mezue Obiora Is A Fullstack Software Developer.
               </p>
             </Carousel.Caption>

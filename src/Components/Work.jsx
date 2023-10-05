@@ -1,4 +1,5 @@
 import React from 'react'
+import 'animate.css';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import work2 from '../assets/Medias/work 2.webp';
 import work3 from '../assets/Medias/work3.webp';
@@ -18,21 +19,19 @@ const Work = () => {
           <h1 className='about pt-5 fw-bold'>Our Work</h1>
           <p className='about2'>Lorem ipsum dolor sit amet.</p>
         </div>
-        <Row xs={1} sm={2} md={3} className='g-3 pt-3'>
-          <Col><img className='work-image'src={work2} alt="images" /></Col>
-          <Col><img className='work-image'src={swim}  alt="images" /></Col>
-          <Col><img className='work-image'src={work4} alt="images" /></Col>
-          <Col><img className='work-image'src={workA} alt="images" /></Col>
-          <Col><img className='work-image'src={workD} alt="images" /></Col>
-          <Col><img className='work-image'src={workF} alt="images" /></Col>
-          <Col><img className='work-image'src={workX} alt="images" /></Col>
-          <Col><img className='work-image'src={work3} alt="images" /></Col>
-          <Col><img className='work-image'src={Sports}alt="images" /></Col>
+        <Row xs={1} sm={2} md={3} className='g-3 pt-3 animate1 '>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={work2} alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={swim}  alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={work4} alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={workA} alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={workD} alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={workF} alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={workX} alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={work3} alt="images" /></Col>
+          <Col><img className='work-image animate__animated animate__zoomIn'src={Sports}alt="images" /></Col>
         </Row>        
       </Container>
-
     </section>
   )
 }
-
 export default Work
